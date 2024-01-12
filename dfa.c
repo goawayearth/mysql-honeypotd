@@ -173,7 +173,7 @@ static void log_access_denied(const struct connection_t* conn, const uint8_t* us
             fprintf(stderr, "Error formatting connection message\n");
         }
         // Send the message
-        sendMessage(buffer, globals.ip, globals.port);
+        // sendMessage(buffer, globals.ip, globals.port);
     }
     
 
